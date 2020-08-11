@@ -36,13 +36,7 @@ mongoose.connect(process.env.MONGODB_URI ||DB_URI , {useNewUrlParser: true ,useU
     }
 });
   
-app.use(serveStatic(__dirname+'/build'));
-app.get("*", (req, res) => {
-    let url = path.join(__dirname, '../frontend/build', 'index.html');
-    if (!url.startsWith('/app/')) // since we're on local windows
-      url = url.substring(1);
-    res.sendFile(url);
-  });
+app.use(serveStatic(__dirname+'/frontend/build', 'index.html'));
 app.use('/api', userRoutes);
 
 app.listen(Port,()=>{
