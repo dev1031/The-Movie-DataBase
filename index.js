@@ -36,7 +36,7 @@ mongoose.connect(process.env.MONGODB_URI ||DB_URI , {useNewUrlParser: true ,useU
     }
 });
   
-app.use(serveStatic(__dirname+'/frontend/build', 'index.html'));
+app.use(serveStatic(__dirname+'/build'));
 app.use('/api', userRoutes);
 
 app.listen(Port,()=>{
