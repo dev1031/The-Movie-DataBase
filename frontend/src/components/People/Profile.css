@@ -1,0 +1,11 @@
+#profile_container {
+    display: flex;
+    justify-content: left;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased
+}
+
+#profile_container > div {
+    margin : 20px;
+    -webkit-font-smoothing: antialiased
+}

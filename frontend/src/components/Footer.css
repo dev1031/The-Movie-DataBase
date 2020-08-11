@@ -1,0 +1,22 @@
+
+#list{
+    max-width: 260px;
+}
+
+#list h3{
+    font-weight: bold;
+    font-size: 1.4em;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    color: #fff;
+    white-space: nowrap;
+    margin: 0 0 4px 0;
+}
+
+#list p {
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: normal;
+    line-height: 1.6em;
+    margin-bottom: 0px;
+}

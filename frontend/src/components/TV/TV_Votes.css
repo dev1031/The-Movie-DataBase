@@ -1,0 +1,23 @@
+.flex-container_votes {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .flex-container_votes > div {
+    color: white;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .votes {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .votes > div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+  }

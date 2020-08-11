@@ -1,0 +1,15 @@
+div.img {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  border-radius: 50%;
+  margin:3px 10px 3px 10px;
+}
+
+div.img h6 {
+  margin: 0 ;
+  color: white;
+}

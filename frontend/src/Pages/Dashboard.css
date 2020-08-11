@@ -1,0 +1,36 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background: white;  
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a); 
+    background: linear-gradient(to right, #2F0743, #41295a); 
+    background-image: url(https://www.themoviedb.org/assets/2/v4/marketing/red_pipes-594140f35efb300741add9827cc4f41053b0a4bb7ba249a40375377cc9d22d47.svg);
+      }
+  
+  .flex-container>div {
+    background: white;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fc6767, #ec008c);  
+    background: linear-gradient(to right, #fc6767, #ec008c); 
+    color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  .flex-container>div>h1{
+    text-align: center;
+    margin-top: 20%;
+    color: white;
+    font-weight: 300;
+    font-size: 100px;
+  }
+
+  .outer{
+    background: white;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-bottom: 2%;
+}
+
