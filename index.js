@@ -36,7 +36,7 @@ mongoose.connect(process.env.MONGODB_URI ||DB_URI , {useNewUrlParser: true ,useU
     }
 });
   
-app.use(serveStatic(__dirname + "frontend/build")); //
+app.use(serveStatic(__dirname + "/build")); //
 app.get("*", (req, res) => {
   res.sendFile(path.resolve(__dirname, "frontend/build")); // <- try "index.html"
 });
