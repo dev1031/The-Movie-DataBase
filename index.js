@@ -1,4 +1,5 @@
 require('dotenv').config();
+const Port = process.env.PORT || 8000;
 const express = require('express');
 const bodyParser =require('body-parser');
 const app = express();
@@ -8,7 +9,6 @@ const morgan = require('morgan');
 const helmet = require('helmet');
 const isAuth = require('./Auth/auth-verify');
 const cors =require('cors');
-const Port = process.env.PORT || 8000;
 const dbuser = 'dheerudev';
 const dbpassword = 'test123';
 const DB_URI =`mongodb://${dbuser}:${dbpassword}@ds113046.mlab.com:13046/movie-db`;
